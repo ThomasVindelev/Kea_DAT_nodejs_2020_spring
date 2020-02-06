@@ -9,7 +9,10 @@ var myObj = {"message": "Hello, earthling! I bring peace."};
 
 // Log the message 
 
-console.log(myObj.message);
+var hallo = "message";
+
+console.log(myObj.message); // dot notation
+console.log(myObj[hallo]); //
 
 // --------------------------------------
 // Exercise 2 - Defining an object. 
