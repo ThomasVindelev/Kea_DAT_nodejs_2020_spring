@@ -47,14 +47,15 @@ console.log(((one + two + three) / 3).toFixed(5));
 var letters = "abc"
 // Get me the character "c"
 
-var letter = letters.charAt(2);
-
-console.log(letter)
+console.log(letters.charAt[2])
+console.log(letters[2]);
 
 // --------------------------------------
 // Exercise 7 - Replace
 
 var fact = "You are learning javascript!";
+
+console.log(fact.indexOf("j"));
 
 fact = fact.replace("j", "J");
 
