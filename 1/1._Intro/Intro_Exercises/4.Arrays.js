@@ -88,6 +88,14 @@ numbers.forEach(element => {
     }
 });
 
+/*for (e of numbers) {
+    if (e > 6 || e < 0) {
+        console.log(e);
+    } else {
+        discardedNumbers.push(e);
+    }
+}*/
+
 console.table(discardedNumbers);
 
 // log the element if the number is above 6 or below 0
