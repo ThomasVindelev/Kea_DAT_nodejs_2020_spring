@@ -40,3 +40,26 @@ console.log(((one + two + three) / 3).toFixed(5));
 // Show in the console the avg. with 5 decimals
 
 // --------------------------------------
+
+// --------------------------------------
+// Exercise 6 - Get the character by index
+
+var letters = "abc"
+// Get me the character "c"
+
+var letter = letters.charAt(2);
+
+console.log(letter)
+
+// --------------------------------------
+// Exercise 7 - Replace
+
+var fact = "You are learning javascript!";
+
+fact = fact.replace("j", "J");
+
+console.log(fact);
+
+// capitalize the J in Javascript
+
+// --------------------------------------
