@@ -58,4 +58,26 @@ prepareIntroduction(introduce, "Thomas");
 
 const newFunction = (name) => {
     console.log("ahAHAhaHAAHHAaaHa ligemeget")
-} 
+}
+
+const aboutMe = me => {
+    console.log("My hobby is", me.hobby);
+}
+
+// you can store functions in objects, with or without parameters
+
+meMyselfAndI = {
+    "hobby": "Music",
+    "functionTesting": () => {
+        console.log("orrre");
+    },
+    "withParams": (param) => {
+        console.log("You've passed the value of", param)
+    }
+}
+
+aboutMe(meMyselfAndI);
+
+meMyselfAndI.functionTesting();
+
+meMyselfAndI.withParams("lululululululul");
