@@ -3,7 +3,7 @@
 
 // import
 const app = require("express")();
-const request = require('request');
+const request = require('request'); //used to request a website outside this domain
 
 app.get("/", (req, res) => {
     res.send({"message": "Hello there"});
